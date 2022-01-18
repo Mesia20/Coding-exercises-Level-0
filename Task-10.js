@@ -1,14 +1,15 @@
 function commonChar(a,b){
     var matchedChars=[];      //The matched characters will be stored 
-    
-    for(i=0;i<a.length;i++){ 
-        for(j=0;j<b.length;j++){
-            if(a[i]==b[j]){
-                matchedChars.push(a[i])
+    var lowerCaseA=a.toLowerCase(); //This will make sure all inputted words are lowerCase
+    var lowerCaseB= b.toLowerCase();
+    for(i=0;i<lowerCaseA.length;i++){ 
+        for(j=0;j<lowerCaseB.length;j++){
+            if(lowerCaseA[i]==lowerCaseB[j]){
+                matchedChars.push(lowerCaseA[i])
             }
         }
     }
         console.log("Common letters: "+ matchedChars.join(", "));           
     }
     
-commonChar("house","computers")
+commonChar("HOUSE","computers")
