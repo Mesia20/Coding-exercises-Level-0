@@ -1,10 +1,10 @@
 function max(x,y,z){
     if (x>y && x>z){
-        console.log("Maximum number is: "+ x) 
+        return ("Maximum number is: "+ x) 
     } else if(y>x && y>z){
-        console.log ("Maximum number is: "+y)
+        return ("Maximum number is: "+y)
     }else {
-        console.log("Maximum number is: "+ z) 
+        return ("Maximum number is: "+ z) 
     
     }
 }max(2,5,100)
