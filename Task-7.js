@@ -1,9 +1,9 @@
 function temperatureInCelsius(x){
-    var convert = (x*1.8)+32
-    console.log("The temperature in Fahrenheit is "+ convert+"F")
+    const convert = (x*1.8)+32
+    return convert
 } 
 
 function temperatureInFahrenhiet(y){
-    var convertToCelsius =Math.round((y-32)*(5/9))
-    console.log("The temperature in Celsius is "+convertToCelsius+"°C")
+    const convertToCelsius =Math.round((y-32)*(5/9))
+    return convertToCelsius
 }temperatureInFahrenhiet(80.6)
