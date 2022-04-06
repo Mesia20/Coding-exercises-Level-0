@@ -30,4 +30,4 @@ function convertToTime(x){
 
         
     }
-}convertToTime(61)
+}convertToTime(64)
