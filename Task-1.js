@@ -4,8 +4,8 @@ let y = 1;
 console.log(x);
 console.log(y);
 
-x = x + 3;
-y = y + x;
+x = 3;
+y = 4;
 
 console.log(x);
 console.log(y);
