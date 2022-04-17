@@ -17,6 +17,8 @@ function convertToTime(x){
         //Handling singular and plural forms of "hours" & "minutes"
         if(hours===1&&minutes<=1){
             console.log(hours+" hour, "+minutes+" minute")
+        }else if(hours===1&&minutes>1){
+            console.log(hours+" hour, "+minutes+" minutes")
         }else if(hours>=1&& minutes<=1){ 
             console.log(hours+" hours, "+minutes+" minute")
 
@@ -28,4 +30,4 @@ function convertToTime(x){
 
         
     }
-}convertToTime(61)
+}convertToTime(64)
